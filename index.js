@@ -22,10 +22,9 @@ function nowServing(katzDeliLine){
   function currentLine(line){
     if(line.length===0) {
       return "The line is currently empty.";}
-      else{ 
+      else{
         return "The line is currently: 1. " + line[0] + "," + "2. " + line [1] = "," + "3. " + line [2];
       }
-      
+
     }
   
-
