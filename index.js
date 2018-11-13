@@ -1,6 +1,6 @@
 katzDeliLine = [];
 
-function takeANumber(katzDeliLine, Ada){
+function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name);
-  console.log ("Welcome, Ada. You are number + katzDeliLine.length +in line")
+  console.log ("Welcome, $`{name}` You are number + katzDeliLine.length +in line")
 }
